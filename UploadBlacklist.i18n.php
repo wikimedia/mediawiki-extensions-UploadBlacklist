@@ -342,6 +342,13 @@ $messages['ms'] = array(
 	'uploadblacklist-desc' => 'Menambahkan kefungsian senarai hitam muat naik',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Laaknor
+ */
+$messages['nb'] = array(
+	'uploadblacklist-desc' => 'Legg til en funksjon for å svarteliste enkelte opplastinger',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -354,13 +361,6 @@ $messages['nl'] = array(
  */
 $messages['nn'] = array(
 	'uploadblacklist-desc' => 'Legg til ein funksjon for å svartelista visse opplastingar',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Laaknor
- */
-$messages['nb'] = array(
-	'uploadblacklist-desc' => 'Legg til en funksjon for å svarteliste enkelte opplastinger',
 );
 
 /** Occitan (Occitan)
@@ -515,7 +515,7 @@ $messages['vec'] = array(
 	'uploadblacklist-desc' => 'Zonta na funsionalità de lista nera par i caricamenti',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
