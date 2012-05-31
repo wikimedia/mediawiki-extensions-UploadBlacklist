@@ -314,6 +314,13 @@ $messages['li'] = array(
 	'uploadblacklist-desc' => "Voog 'n zwarte lies toe veur uploads",
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'uploadblacklist-desc' => 'Hlànkài tlarna dum hmanrua',
+);
+
 /** Latvian (Latviešu)
  * @author Xil
  */
