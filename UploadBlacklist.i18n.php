@@ -274,9 +274,10 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Aotake
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'uploadblacklist-desc' => 'アップロード・ブラックリスト機能を追加する',
+	'uploadblacklist-desc' => 'ブラックリストをアップロードする機能を追加する',
 );
 
 /** Georgian (ქართული)
