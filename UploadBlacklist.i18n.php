@@ -47,7 +47,7 @@ $messages['arz'] = array(
 	'uploadblacklist-desc' => 'يزود وظيفه بلاكليست للرفع',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -75,35 +75,35 @@ $messages['be-tarask'] = array(
 	'uploadblacklist-desc' => 'Дадае магчымасьць выкарыстаньня чорнага сьпісу загрузак',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author Turin
  */
 $messages['bg'] = array(
 	'uploadblacklist-desc' => 'Добавяне възможност за черен списък за качванията',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'uploadblacklist-desc' => "Ouzhpennañ a ra un arc'hwel listennad du evit ar pellgargañ",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'uploadblacklist-desc' => 'Dodaje funkcionalnost postavljanja zabranjenih spiskova',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Ssola
  */
 $messages['ca'] = array(
 	'uploadblacklist-desc' => "Afageix la funció d'una llista negra per la pujada d'arxius",
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -117,7 +117,7 @@ $messages['cy'] = array(
 	'uploadblacklist-desc' => 'Yn ychwanegu nodwedd uwchlwytho rhestr ddu',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -158,21 +158,21 @@ $messages['eo'] = array(
 	'uploadblacklist-desc' => 'Aldonas funkcion por nigranlisto de alŝutaĵoj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Dferg
  */
 $messages['es'] = array(
 	'uploadblacklist-desc' => 'Añade una lista negra de subida de archivos',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
 	'uploadblacklist-desc' => 'Lisab üleslaadimise musta nimekirja kasutamise võimaluse.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -186,21 +186,21 @@ $messages['fa'] = array(
 	'uploadblacklist-desc' => 'قابلیت بارگذاری لیست سیاه را می‌افزاید',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Str4nd
  */
 $messages['fi'] = array(
 	'uploadblacklist-desc' => 'Lisää musta lista -toiminnon tiedostojen tallennukselle.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  */
 $messages['fr'] = array(
 	'uploadblacklist-desc' => 'Ajoute une fonctionnalité de liste noire pour les téléversements',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -229,7 +229,7 @@ $messages['he'] = array(
 	'uploadblacklist-desc' => 'הוספת אפשרות ליצירת רשימה שחורה של קבצים שאסור להעלות',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -243,7 +243,7 @@ $messages['hsb'] = array(
 	'uploadblacklist-desc' => 'Přidawa funkcionalnosć čorneje lisćiny za nahraća',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -251,7 +251,7 @@ $messages['hu'] = array(
 	'uploadblacklist-desc' => 'Feketelista használata a feltöltéseknél',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -265,7 +265,7 @@ $messages['id'] = array(
 	'uploadblacklist-desc' => 'Menambahkan fungsionalitas mengunggahkan daftar hitam',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -322,14 +322,14 @@ $messages['lus'] = array(
 	'uploadblacklist-desc' => 'Hlànkài tlarna dum hmanrua',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Xil
  */
 $messages['lv'] = array(
 	'uploadblacklist-desc' => 'Ļauj ielādēt melno sarakstu',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -364,21 +364,21 @@ $messages['nl'] = array(
 	'uploadblacklist-desc' => 'Voegt een zwarte lijst toe voor uploads',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  */
 $messages['nn'] = array(
 	'uploadblacklist-desc' => 'Legg til ein funksjon for å svartelista visse opplastingar',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'uploadblacklist-desc' => 'Apond una foncionalitat de lista negra pels telecargaments',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -392,35 +392,35 @@ $messages['pms'] = array(
 	'uploadblacklist-desc' => 'A gionta na funsionalità për carié la blacklist',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Waldir
  */
 $messages['pt'] = array(
 	'uploadblacklist-desc' => 'Acrescenta uma funcionalidade de lista negra para carregamento de ficheiros',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'uploadblacklist-desc' => 'Adiciona uma funcionalidade de lista negra para carregamento de arquivos',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  */
 $messages['ro'] = array(
 	'uploadblacklist-desc' => 'Adaugă funcționalitatea unei liste negre de încărcare',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'uploadblacklist-desc' => "Aggiunge 'na funzionalitate pe 'na lista gnore pe le carecaminde",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -434,7 +434,7 @@ $messages['rue'] = array(
 	'uploadblacklist-desc' => 'Придавать функціоналіти чорного списку про начітаня файлів',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -448,33 +448,33 @@ $messages['si'] = array(
 	'uploadblacklist-desc' => 'උඩුගතකිරීම් අපලේඛන ශ්‍රිතීයතාවයක් එකතු කරයි',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'uploadblacklist-desc' => 'Pridáva funkcionalitu čiernej listiny nahrávaní',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
 	'uploadblacklist-desc' => 'Doda funkcionalnost črne liste nalaganj',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'uploadblacklist-desc' => 'Додаје функционалност црне листе за слање фајлова',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'uploadblacklist-desc' => 'Dodaje funkcionalnost crne liste za slanje fajlova',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Fluff
  */
 $messages['sv'] = array(
@@ -502,21 +502,21 @@ $messages['tr'] = array(
 	'uploadblacklist-desc' => 'Bir yükleme karalistesi işlevselliği ekler',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
 	'uploadblacklist-desc' => 'Кертелгән йөкләмәләрне кара исемлеккә кертә',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  */
 $messages['uk'] = array(
 	'uploadblacklist-desc' => 'Дозволяє створення чорного списку завантажуваних файлів',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -537,7 +537,7 @@ $messages['vi'] = array(
 	'uploadblacklist-desc' => 'Thêm chức năng danh sách đen tải lên',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Liangent
  * @author PhiLiP
  */
@@ -545,7 +545,7 @@ $messages['zh-hans'] = array(
 	'uploadblacklist-desc' => '添加上传黑名单功能',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author KaiesTse
  */
 $messages['zh-hant'] = array(
