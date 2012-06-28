@@ -47,6 +47,13 @@ $messages['arz'] = array(
 	'uploadblacklist-desc' => 'يزود وظيفه بلاكليست للرفع',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'uploadblacklist-desc' => 'এটা আপল’ড ব্লেকলিষ্টেদ ক্ৰিয়াপ্ৰণালী যোগ দিয়ে',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
