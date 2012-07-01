@@ -75,7 +75,7 @@ $messages['bar'] = array(
 	'uploadblacklist-desc' => 'fügt a schwoaze listn füa die Upload-fungtion hianzur',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -143,7 +143,7 @@ $messages['diq'] = array(
 	'uploadblacklist-desc' => 'Yew funksiyonê bar kerdişi de keno',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -214,7 +214,7 @@ $messages['frp'] = array(
 	'uploadblacklist-desc' => 'Apond una fonccionalitât de lista nêre por los tèlèchargements.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -243,7 +243,7 @@ $messages['hr'] = array(
 	'uploadblacklist-desc' => 'Dodaje funkcionalnost crne liste postavljanja',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -434,7 +434,7 @@ $messages['ru'] = array(
 	'uploadblacklist-desc' => 'Добавляет возможность использования чёрного списка загрузок',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
