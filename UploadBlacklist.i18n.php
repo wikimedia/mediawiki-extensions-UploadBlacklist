@@ -61,7 +61,7 @@ $messages['ast'] = array(
 	'uploadblacklist-desc' => 'Amiesta una función de llista prieta pa xubir ficheros',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -357,7 +357,7 @@ $messages['ms'] = array(
 	'uploadblacklist-desc' => 'Menambahkan kefungsian senarai hitam muat naik',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Laaknor
  */
 $messages['nb'] = array(
@@ -530,7 +530,7 @@ $messages['vec'] = array(
 	'uploadblacklist-desc' => 'Zonta na funsionalità de lista nera par i caricamenti',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
