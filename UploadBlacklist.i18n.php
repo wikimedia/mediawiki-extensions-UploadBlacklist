@@ -287,6 +287,13 @@ $messages['ja'] = array(
 	'uploadblacklist-desc' => 'ブラックリストをアップロードする機能を追加する',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'uploadblacklist-desc' => 'Tambah fungsi daptar ireng unggahan',
+);
+
 /** Georgian (ქართული)
  * @author გიორგიმელა
  */
