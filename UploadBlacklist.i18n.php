@@ -131,9 +131,11 @@ $messages['da'] = array(
 	'uploadblacklist-desc' => 'Tilføjer funktionalitet til at sortliste visse oplægninger',
 );
 
-/** German (Deutsch) */
+/** German (Deutsch)
+ * @author Kghbln
+ */
 $messages['de'] = array(
-	'uploadblacklist-desc' => 'Fügt eine schwarze Liste für die Hochladen-Funktion hinzu',
+	'uploadblacklist-desc' => 'Ermöglicht eine Negativliste für die Hochladefunktion',
 );
 
 /** Zazaki (Zazaki)
