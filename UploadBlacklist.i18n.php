@@ -75,7 +75,7 @@ $messages['bar'] = array(
 	'uploadblacklist-desc' => 'fügt a schwoaze listn füa die Upload-fungtion hianzur',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -366,7 +366,7 @@ $messages['ms'] = array(
 	'uploadblacklist-desc' => 'Menambahkan kefungsian senarai hitam muat naik',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Laaknor
  */
 $messages['nb'] = array(
@@ -380,7 +380,7 @@ $messages['nl'] = array(
 	'uploadblacklist-desc' => 'Voegt een zwarte lijst toe voor uploads',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  */
 $messages['nn'] = array(
@@ -478,14 +478,14 @@ $messages['sl'] = array(
 	'uploadblacklist-desc' => 'Doda funkcionalnost črne liste nalaganj',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'uploadblacklist-desc' => 'Додаје функционалност црне листе за слање фајлова',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'uploadblacklist-desc' => 'Dodaje funkcionalnost crne liste za slanje fajlova',
 );
@@ -553,7 +553,7 @@ $messages['vi'] = array(
 	'uploadblacklist-desc' => 'Thêm chức năng danh sách đen tải lên',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  * @author PhiLiP
  */
@@ -561,7 +561,7 @@ $messages['zh-hans'] = array(
 	'uploadblacklist-desc' => '添加上传黑名单功能',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author KaiesTse
  */
 $messages['zh-hant'] = array(
