@@ -485,7 +485,8 @@ $messages['sr-ec'] = array(
 	'uploadblacklist-desc' => 'Додаје функционалност црне листе за слање фајлова',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'uploadblacklist-desc' => 'Dodaje funkcionalnost crne liste za slanje fajlova',
 );
@@ -567,4 +568,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'uploadblacklist-desc' => '加入上傳黑名單功能',
 );
-
