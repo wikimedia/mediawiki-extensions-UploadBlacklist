@@ -331,7 +331,7 @@ $messages['li'] = array(
 	'uploadblacklist-desc' => "Voog 'n zwarte lies toe veur uploads",
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
