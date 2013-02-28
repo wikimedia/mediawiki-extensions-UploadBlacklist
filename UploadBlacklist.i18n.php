@@ -14,9 +14,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Raymond
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'uploadblacklist-desc' => '{{desc}}',
+	'uploadblacklist-desc' => '{{desc|name=Upload Blacklist|url=http://www.mediawiki.org/wiki/Extension:UploadBlacklist}}',
 );
 
 /** Afrikaans (Afrikaans)
