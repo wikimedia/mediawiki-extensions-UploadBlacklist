@@ -48,7 +48,7 @@ $messages['arz'] = array(
 	'uploadblacklist-desc' => 'يزود وظيفه بلاكليست للرفع',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -170,6 +170,7 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Dferg
+ * @author MarcoAurelio
  */
 $messages['es'] = array(
 	'uploadblacklist-desc' => 'Añade una lista negra de subida de archivos',
@@ -367,7 +368,7 @@ $messages['ms'] = array(
 	'uploadblacklist-desc' => 'Menambahkan kefungsian senarai hitam muat naik',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Laaknor
  */
 $messages['nb'] = array(
@@ -381,7 +382,7 @@ $messages['nl'] = array(
 	'uploadblacklist-desc' => 'Voegt een zwarte lijst toe voor uploads',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Gunnernett
  */
 $messages['nn'] = array(
