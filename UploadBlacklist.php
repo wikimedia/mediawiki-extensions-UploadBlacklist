@@ -25,7 +25,7 @@ $wgHooks['UploadVerification'][] = 'ubVerifyHash';
 
 /**
  * Callback for UploadVerification hook; calculates the file's
- * MD5 hash and checks it against a list of blacklisted files.
+ * SHA1 hash and checks it against a list of blacklisted files.
  * If it matches, the upload will be denied.
  *
  * @param string $saveName Destination filename
