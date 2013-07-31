@@ -1,6 +1,6 @@
 <?php
 /**
- * Internationalisation file for the User Merge and Delete Extension.
+ * Internationalisation file for the UploadBlacklist Extension.
  *
  * @file
  * @ingroup Extensions
