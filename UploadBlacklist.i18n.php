@@ -321,9 +321,10 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'uploadblacklist-desc' => "Setzt d'Fonctionalitéit vun enger Schwaarzer Lëscht fir d'Eroplueden derbäi",
+	'uploadblacklist-desc' => "Setzt d'Funktionalitéit vun enger Schwaarzer Lëscht fir d'Eroplueden derbäi",
 );
 
 /** Limburgish (Limburgs)
