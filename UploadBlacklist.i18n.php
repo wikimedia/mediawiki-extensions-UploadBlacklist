@@ -111,7 +111,7 @@ $messages['ca'] = array(
 	'uploadblacklist-desc' => "Afageix la funció d'una llista negra per la pujada d'arxius",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(
