@@ -18,6 +18,7 @@ $wgExtensionCredits['other'][] = array(
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:UploadBlacklist',
 );
 
+$wgMessagesDirs['UploadBlacklist'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['UploadBlacklist'] = dirname( __FILE__ ) . '/UploadBlacklist.i18n.php';
 
 $ubUploadBlacklist = array();
