@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Firilacroco"
-        ]
-    },
-    "uploadblacklist-desc": "Adaugă funcționalitatea unei liste negre de încărcare"
+	"@metadata": {
+		"authors": [
+			"Firilacroco"
+		]
+	},
+	"uploadblacklist-desc": "Adaugă funcționalitatea unei liste negre de încărcare"
 }

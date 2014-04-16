@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ssola"
-        ]
-    },
-    "uploadblacklist-desc": "Afageix la funció d'una llista negra per la pujada d'arxius"
+	"@metadata": {
+		"authors": [
+			"Ssola"
+		]
+	},
+	"uploadblacklist-desc": "Afageix la funció d'una llista negra per la pujada d'arxius"
 }

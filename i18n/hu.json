@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dani",
-            "Glanthor Reviol"
-        ]
-    },
-    "uploadblacklist-desc": "Feketelista használata a feltöltéseknél"
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Glanthor Reviol"
+		]
+	},
+	"uploadblacklist-desc": "Feketelista használata a feltöltéseknél"
 }

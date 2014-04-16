@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Siebrand"
-        ]
-    },
-    "uploadblacklist-desc": "Voegt een zwarte lijst toe voor uploads"
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"uploadblacklist-desc": "Voegt een zwarte lijst toe voor uploads"
 }

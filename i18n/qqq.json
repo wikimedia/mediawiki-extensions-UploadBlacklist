@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Raymond",
-            "Shirayuki"
-        ]
-    },
-    "uploadblacklist-desc": "{{desc|name=Upload Blacklist|url=http://www.mediawiki.org/wiki/Extension:UploadBlacklist}}"
+	"@metadata": {
+		"authors": [
+			"Raymond",
+			"Shirayuki"
+		]
+	},
+	"uploadblacklist-desc": "{{desc|name=Upload Blacklist|url=http://www.mediawiki.org/wiki/Extension:UploadBlacklist}}"
 }

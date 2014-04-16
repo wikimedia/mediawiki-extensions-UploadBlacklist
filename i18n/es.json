@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dferg",
-            "MarcoAurelio"
-        ]
-    },
-    "uploadblacklist-desc": "Añade una lista negra de subida de archivos"
+	"@metadata": {
+		"authors": [
+			"Dferg",
+			"MarcoAurelio"
+		]
+	},
+	"uploadblacklist-desc": "Añade una lista negra de subida de archivos"
 }

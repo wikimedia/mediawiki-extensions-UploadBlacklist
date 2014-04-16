@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Crochet.david"
-        ]
-    },
-    "uploadblacklist-desc": "Ajoute une fonctionnalité de liste noire pour les téléversements"
+	"@metadata": {
+		"authors": [
+			"Crochet.david"
+		]
+	},
+	"uploadblacklist-desc": "Ajoute une fonctionnalité de liste noire pour les téléversements"
 }

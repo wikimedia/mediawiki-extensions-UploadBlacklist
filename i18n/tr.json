@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joseph"
-        ]
-    },
-    "uploadblacklist-desc": "Bir yükleme karalistesi işlevselliği ekler"
+	"@metadata": {
+		"authors": [
+			"Joseph"
+		]
+	},
+	"uploadblacklist-desc": "Bir yükleme karalistesi işlevselliği ekler"
 }

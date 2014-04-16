@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "uploadblacklist-desc": "Engade unha funcionalidade de lista negra de carga"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"uploadblacklist-desc": "Engade unha funcionalidade de lista negra de carga"
 }

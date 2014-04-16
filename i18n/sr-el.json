@@ -1,6 +1,4 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "uploadblacklist-desc": "Dodaje funkcionalnost crne liste za slanje fajlova"
+	"@metadata": [],
+	"uploadblacklist-desc": "Dodaje funkcionalnost crne liste za slanje fajlova"
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "CERminator"
-        ]
-    },
-    "uploadblacklist-desc": "Dodaje funkcionalnost postavljanja zabranjenih spiskova"
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"uploadblacklist-desc": "Dodaje funkcionalnost postavljanja zabranjenih spiskova"
 }

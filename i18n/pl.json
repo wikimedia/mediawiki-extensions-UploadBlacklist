@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sp5uhe"
-        ]
-    },
-    "uploadblacklist-desc": "Dodaje funkcję czarnej listy przesyłanych plików"
+	"@metadata": {
+		"authors": [
+			"Sp5uhe"
+		]
+	},
+	"uploadblacklist-desc": "Dodaje funkcję czarnej listy przesyłanych plików"
 }

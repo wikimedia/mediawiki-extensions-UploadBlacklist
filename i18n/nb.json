@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Laaknor"
-        ]
-    },
-    "uploadblacklist-desc": "Legg til en funksjon for å svarteliste enkelte opplastinger"
+	"@metadata": {
+		"authors": [
+			"Laaknor"
+		]
+	},
+	"uploadblacklist-desc": "Legg til en funksjon for å svarteliste enkelte opplastinger"
 }

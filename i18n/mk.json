@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "uploadblacklist-desc": "Додава функција за црн список на подигања"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"uploadblacklist-desc": "Додава функција за црн список на подигања"
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gazeb"
-        ]
-    },
-    "uploadblacklist-desc": "Придавать функціоналіти чорного списку про начітаня файлів"
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"uploadblacklist-desc": "Придавать функціоналіти чорного списку про начітаня файлів"
 }
