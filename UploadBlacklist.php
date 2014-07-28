@@ -70,9 +70,9 @@ function ubVerifyHash( $saveName, $tempName, &$error ) {
  * @access private
  */
 function ubLog( $action, $hash, $saveName, $tempName ) {
-	global $wgUser;
+	global $wgUser, $wgRequest;
 	$user = $wgUser->getName();
-	$ip = wfGetIP();
+	$ip = $wgRequest->getIP();
 	$ts = wfTimestamp( TS_DB );
 	wfDebugLog( 'UploadBlacklist', "$ts $action [$hash] name:$saveName file:$tempName user:$user ip:$ip" );
 }
