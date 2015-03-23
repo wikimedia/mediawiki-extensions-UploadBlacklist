@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Raymond",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"uploadblacklist-desc": "{{desc|name=Upload Blacklist|url=http://www.mediawiki.org/wiki/Extension:UploadBlacklist}}"
+	"uploadblacklist-desc": "{{desc|name=Upload Blacklist|url=https://www.mediawiki.org/wiki/Extension:UploadBlacklist}}"
 }
