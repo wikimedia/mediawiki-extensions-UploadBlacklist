@@ -36,9 +36,9 @@ $wgHooks['UploadVerification'][] = 'ubVerifyHash';
 function ubVerifyHash( $saveName, $tempName, &$error ) {
 	$error = '';
 
-	wfSuppressWarnings();
+	Wikimedia\suppressWarnings();
 	$hash = sha1_file( $tempName );
-	wfRestoreWarnings();
+	Wikimedia\restoreWarnings();
 
 	if( $hash === false ) {
 		$error = "Failed to calculate file hash; may be missing or damaged.";
