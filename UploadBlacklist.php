@@ -1,77 +1,33 @@
 <?php
-
 /**
- * An extension that adds an upload blacklist functionality
+ * MediaWiki extension UploadBlacklist.
+ * Copyright (C) 2009; Brion VIBBER <brion@wikimedia.org>
  *
- * @file
- * @ingroup Extensions
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-if( !defined( 'MEDIAWIKI' ) )
-	die();
-
-$wgExtensionCredits['other'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'UploadBlacklist',
-	'descriptionmsg' => 'uploadblacklist-desc',
-	'author'         => 'Brion Vibber',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:UploadBlacklist',
-);
-
-$wgMessagesDirs['UploadBlacklist'] = __DIR__ . '/i18n';
-
-$ubUploadBlacklist = array();
-$wgHooks['UploadVerification'][] = 'ubVerifyHash';
-
-/**
- * Callback for UploadVerification hook; calculates the file's
- * SHA1 hash and checks it against a list of blacklisted files.
- * If it matches, the upload will be denied.
- *
- * @param string $saveName Destination filename
- * @param string $tempName Filesystem path to temporary upload file
- * @param string $error Set to HTML message if failure
- * @return bool true if passes this check, false if blocked
- */
-function ubVerifyHash( $saveName, $tempName, &$error ) {
-	$error = '';
-
-	Wikimedia\suppressWarnings();
-	$hash = sha1_file( $tempName );
-	Wikimedia\restoreWarnings();
-
-	if( $hash === false ) {
-		$error = "Failed to calculate file hash; may be missing or damaged.";
-		$error .= " Filename: " . htmlspecialchars( $tempName );
-		ubLog( 'ERROR', $hash, $saveName, $tempName );
-		return false;
-	}
-
-	global $ubUploadBlacklist;
-	if( in_array( $hash, $ubUploadBlacklist ) ) {
-		$error = "File appears to be corrupt.";
-		ubLog( 'HIT', $hash, $saveName, $tempName );
-		return false;
-	} else {
-		ubLog( 'MISS', $hash, $saveName, $tempName );
-		return true;
-	}
-}
-
-/**
- * Set $wgDebugLogGroups['UploadBlacklist'] to direct logging to a particular
- * file instead of the debug log.
- *
- * @param string $action
- * @param string $hash
- * @param string $saveName
- * @param string $tempName
- * @access private
- */
-function ubLog( $action, $hash, $saveName, $tempName ) {
-	global $wgUser, $wgRequest;
-	$user = $wgUser->getName();
-	$ip = $wgRequest->getIP();
-	$ts = wfTimestamp( TS_DB );
-	wfDebugLog( 'UploadBlacklist', "$ts $action [$hash] name:$saveName file:$tempName user:$user ip:$ip" );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'UploadBlacklist' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['UploadBlacklist'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the UploadBlacklist extension. ' .
+		'Please use wfLoadExtension() instead, ' .
+		'see https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the UploadBlacklist extension requires MediaWiki 1.25+' );
 }
