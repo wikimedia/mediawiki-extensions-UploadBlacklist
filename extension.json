@@ -14,7 +14,7 @@
 		]
 	},
 	"Hooks": {
-		"onUploadVerification": "UploadBlacklistHooks::onUploadVerification"
+		"UploadVerification": "UploadBlacklistHooks::onUploadVerification"
 	},
 	"config": {
 		"_prefix": "ub",
