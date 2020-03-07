@@ -27,7 +27,7 @@ class UploadBlacklistHooks {
 	 *
 	 * @param string $saveName Destination filename
 	 * @param string $tempName Filesystem path to temporary upload file
-	 * @param string $error Set to HTML message if failure
+	 * @param string &$error Set to HTML message if failure
 	 * @return bool true if passes this check, false if blocked
 	 */
 	public static function onUploadVerification( $saveName, $tempName, &$error ) {
@@ -37,15 +37,16 @@ class UploadBlacklistHooks {
 		$hash = sha1_file( $tempName );
 		Wikimedia\restoreWarnings();
 
-		if( $hash === false ) {
+		if ( $hash === false ) {
 			$error = "Failed to calculate file hash; may be missing or damaged.";
 			$error .= " Filename: " . htmlspecialchars( $tempName );
 			self::log( 'ERROR', $hash, $saveName, $tempName );
 			return false;
 		}
 
+		// phpcs:ignore MediaWiki.NamingConventions.ValidGlobalName.allowedPrefix
 		global $ubUploadBlacklist;
-		if( in_array( $hash, $ubUploadBlacklist ) ) {
+		if ( in_array( $hash, $ubUploadBlacklist ) ) {
 			$error = "File appears to be corrupt.";
 			self::log( 'HIT', $hash, $saveName, $tempName );
 			return false;
@@ -72,4 +73,4 @@ class UploadBlacklistHooks {
 		wfDebugLog( 'UploadBlacklist', "$ts $action [$hash] name:$saveName file:$tempName user:$user ip:$ip" );
 	}
 
-};
+}
