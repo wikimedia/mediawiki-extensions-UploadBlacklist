@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Joseph"
 		]
 	},
-	"uploadblacklist-desc": "Bir yükleme karalistesi işlevselliği ekler"
+	"uploadblacklist-desc": "Yükleme kara listesi işlevi ekler"
 }
