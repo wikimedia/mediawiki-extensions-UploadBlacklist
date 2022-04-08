@@ -19,6 +19,8 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+use Wikimedia\AtEase\AtEase;
+
 class UploadBlacklistHooks {
 	/**
 	 * Callback for UploadVerification hook; calculates the file's
@@ -33,9 +35,9 @@ class UploadBlacklistHooks {
 	public static function onUploadVerification( $saveName, $tempName, &$error ) {
 		$error = '';
 
-		Wikimedia\suppressWarnings();
+		AtEase::suppressWarnings();
 		$hash = sha1_file( $tempName );
-		Wikimedia\restoreWarnings();
+		AtEase::restoreWarnings();
 
 		if ( $hash === false ) {
 			$error = "Failed to calculate file hash; may be missing or damaged.";
