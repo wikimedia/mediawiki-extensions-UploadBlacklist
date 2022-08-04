@@ -68,9 +68,9 @@ class UploadBlacklistHooks {
 	 * @param string $tempName
 	 */
 	private static function log( $action, $hash, $saveName, $tempName ) {
-		global $wgUser, $wgRequest;
-		$user = $wgUser->getName();
-		$ip = $wgRequest->getIP();
+		$context = RequestContext::getMain();
+		$user = $context->getUser()->getName();
+		$ip = $context->getRequest()->getIP();
 		$ts = wfTimestamp( TS_DB );
 		wfDebugLog( 'UploadBlacklist', "$ts $action [$hash] name:$saveName file:$tempName user:$user ip:$ip" );
 	}
