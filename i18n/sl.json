@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
-	"uploadblacklist-desc": "Doda funkcionalnost črne liste nalaganj"
+	"uploadblacklist-desc": "Doda funkcionalnost črnega seznama nalaganja"
 }
